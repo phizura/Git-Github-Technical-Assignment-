@@ -1,6 +1,6 @@
 1. membuat sebuah folder kosong dengan namamu sendiri (mkdir SatrioAP && git init SatrioAP)
 2. membuat sebuah file di dalam folder tersebut dengan nama README.md, isi file tersebut dengan kalimat "Halo perkenalkan aku halaman utama" (cd SatrioAP && touch README.md && vim README.md)
-3. inisialisasi folder tersebut dengan Git, kemudian simpan perubahan menggunakan commit dengan pesan "First commit" (git init SatrioAP && git add README.md && git commit -m "First commit")
+3. inisialisasi folder tersebut dengan Git, kemudian simpan perubahan menggunakan commit dengan pesan "First commit" (git add README.md && git commit -m "First commit")
 4. Ganti teks sebelumnya dengan `"Hello world" (vim README.md)
 5. Tampilkan isi teks tersebut pada command line menggunakan command cat (cat README.md)
 6. Ternyata kamu tidak ingin perubahan tersebut, dan ingin kembali ke perubahan seperti commit yang terakhir. Lakukan teknik git backtracking untuk mengembalikan ke perubahan commit yang terakhir. (git checkout HEAD README.md)
